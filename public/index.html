@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakapo Backend API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .status {
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .endpoints {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .endpoint {
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+            border-left: 4px solid #007bff;
+            border-radius: 3px;
+        }
+        code {
+            background-color: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Zakapo Backend API</h1>
+        
+        <div class="status">
+            ✅ Server is running successfully!
+        </div>
+        
+        <div class="endpoints">
+            <h3>Available API Endpoints:</h3>
+            
+            <div class="endpoint">
+                <strong>User Management:</strong> <code>/api/user</code>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Item Management:</strong> <code>/api/add-item</code>, <code>/api/get-item</code>, <code>/api/update-item</code>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Products:</strong> <code>/api/all-products</code>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Stock Management:</strong> <code>/api/product-stocks</code>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Sales:</strong> <code>/api/sales-report</code>, <code>/api/sales-stats</code>
+            </div>
+            
+            <div class="endpoint">
+                <strong>Authentication:</strong> <code>/api/auth</code>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 30px; color: #666;">
+            <p>Backend API is ready to handle requests!</p>
+            <p>Check the console for server logs and database connection status.</p>
+        </div>
+    </div>
+</body>
+</html>
