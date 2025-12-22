@@ -52,30 +52,6 @@ const NewUserSchema = new mongoose.Schema(
       type: Date,
       default: null,
     },
-    // new fields
-    userName: {
-      type: String,
-      unique: true,
-      lowercase: true,
-      trim: true,
-      default: function () {
-        return this.emailAddress
-          ? this.emailAddress.split("@")[0].toLowerCase()
-          : undefined;
-      },
-    },
-
-    role: {
-      type: String,
-      enum: ["admin", "operations", "marketing", "analytics", "inventory"],
-      default: "operations",
-    },
-
-    status: {
-      type: String,
-      enum: ["active", "inactive", "suspended"],
-      default: "active",
-    },
   },
   { timestamps: true }
 );

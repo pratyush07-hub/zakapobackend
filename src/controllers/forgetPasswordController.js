@@ -26,11 +26,13 @@ const forgetPasswordController = async (req, res) => {
       },
     });
 
+    const resetLink = `${process.env.FRONTEND_URL}/reset-password/${user._id}/${token}`;
+
     const mailOptions = {
       from: "youremail@gmail.com",
       to: emailAddress, // <- send to user's actual email
       subject: "Reset Password Link",
-      text: `http://localhost:5173/reset-password/${user._id}/${token}`,
+      text: resetLink,
     };
 
     await transporter.sendMail(mailOptions);

@@ -26,7 +26,7 @@ const config = {
   EMAIL_PASS: process.env.EMAIL_PASS ,
   
   // CORS Configuration
-  CORS_ORIGIN: process.env.CORS_ORIGIN || ["http://localhost:3000", "http://localhost:4000", "http://localhost:5173"],
+  CORS_ORIGIN: process.env.CORS_ORIGIN || ["http://localhost:3000", "http://localhost:4000", "http://localhost:5173","https://zakapofrontend.vercel.app","https://zakapobackend.vercel.app"],
   
   // Database Name
   DB_NAME: "Zakapo",

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:4000/api';
+const BASE_URL = `${process.env.BASE_URL || 'http://localhost:4000'}/api`;
 
 // Test the Shopify sync functionality
 async function testShopifySync() {

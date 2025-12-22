@@ -1,0 +1,182 @@
+[
+  {
+    "userId": 1,
+    "name": "Suresh Singh",
+    "role": "Operations Manager",
+    "email": "sureshsingh654@gmail.com",
+    "status": "Active",
+    "accessCount": 8,
+    "joinedAt": "01-12-2024",
+    "lastActive": "2 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": true, "addEditItems": true, "manageCombos": true, "viewRestockAlerts": true },
+      "orders": { "viewOrders": true, "manageOrderStatus": true, "viewLogisticsDashboard": true },
+      "platforms": { "viewPlatforms": true, "connectPlatform": true },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": true, "useCopilot": true },
+      "reports": { "viewReports": true, "createCustomReports": true }
+    }
+  },
+  {
+    "userId": 2,
+    "name": "Hansraj Gena",
+    "role": "Marketing Manager",
+    "email": "hansraj@gmail.com",
+    "status": "Active",
+    "accessCount": 6,
+    "joinedAt": "15-11-2024",
+    "lastActive": "5 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": true, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": true },
+      "orders": { "viewOrders": true, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": true, "connectPlatform": false },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 3,
+    "name": "Rajesh Joshi",
+    "role": "Inventory Manager",
+    "email": "rajesh@gmail.com",
+    "status": "Active",
+    "accessCount": 7,
+    "joinedAt": "05-10-2024",
+    "lastActive": "1 Day Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": false },
+      "inventory": { "viewInventory": true, "addEditItems": true, "manageCombos": true, "viewRestockAlerts": true },
+      "orders": { "viewOrders": true, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": false, "connectPlatform": false },
+      "ai": { "viewMarketForecast": false, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 4,
+    "name": "Pawan Sharma",
+    "role": "Analytics Coordinator",
+    "email": "pawan@gmail.com",
+    "status": "Inactive",
+    "accessCount": 2,
+    "joinedAt": "01-09-2024",
+    "lastActive": "7 Days Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": false, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": false },
+      "orders": { "viewOrders": false, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": false, "connectPlatform": false },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": false, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 5,
+    "name": "Neha Gupta",
+    "role": "Sales Lead",
+    "email": "neha@gmail.com",
+    "status": "Active",
+    "accessCount": 5,
+    "joinedAt": "12-08-2024",
+    "lastActive": "3 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": false, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": false },
+      "orders": { "viewOrders": true, "manageOrderStatus": true, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": true, "connectPlatform": false },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 6,
+    "name": "Amit Verma",
+    "role": "Finance Executive",
+    "email": "amit@gmail.com",
+    "status": "Active",
+    "accessCount": 4,
+    "joinedAt": "20-07-2024",
+    "lastActive": "1 Day Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": false, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": false },
+      "orders": { "viewOrders": true, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": false, "connectPlatform": false },
+      "ai": { "viewMarketForecast": false, "viewSuggestions": false, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": true }
+    }
+  },
+  {
+    "userId": 7,
+    "name": "Ritu Malhotra",
+    "role": "HR Manager",
+    "email": "ritu@gmail.com",
+    "status": "Active",
+    "accessCount": 3,
+    "joinedAt": "10-06-2024",
+    "lastActive": "6 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": false },
+      "inventory": { "viewInventory": false, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": false },
+      "orders": { "viewOrders": false, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": false, "connectPlatform": false },
+      "ai": { "viewMarketForecast": false, "viewSuggestions": false, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 8,
+    "name": "Arjun Mehta",
+    "role": "Product Manager",
+    "email": "arjun@gmail.com",
+    "status": "Active",
+    "accessCount": 6,
+    "joinedAt": "01-05-2024",
+    "lastActive": "4 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": true, "addEditItems": true, "manageCombos": false, "viewRestockAlerts": true },
+      "orders": { "viewOrders": true, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": true, "connectPlatform": false },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 9,
+    "name": "Vikas Yadav",
+    "role": "Supply Chain Manager",
+    "email": "vikas@gmail.com",
+    "status": "Active",
+    "accessCount": 7,
+    "joinedAt": "15-04-2024",
+    "lastActive": "30 Minutes Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": true, "addEditItems": true, "manageCombos": true, "viewRestockAlerts": true },
+      "orders": { "viewOrders": true, "manageOrderStatus": true, "viewLogisticsDashboard": true },
+      "platforms": { "viewPlatforms": false, "connectPlatform": false },
+      "ai": { "viewMarketForecast": false, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  },
+  {
+    "userId": 10,
+    "name": "Kiran Rao",
+    "role": "Business Analyst",
+    "email": "kiran@gmail.com",
+    "status": "Active",
+    "accessCount": 5,
+    "joinedAt": "01-03-2024",
+    "lastActive": "12 Hours Ago",
+    "permissions": {
+      "dashboard": { "viewDashboard": true, "viewSalesReports": true },
+      "inventory": { "viewInventory": false, "addEditItems": false, "manageCombos": false, "viewRestockAlerts": false },
+      "orders": { "viewOrders": true, "manageOrderStatus": false, "viewLogisticsDashboard": false },
+      "platforms": { "viewPlatforms": true, "connectPlatform": false },
+      "ai": { "viewMarketForecast": true, "viewSuggestions": true, "useCopilot": false },
+      "reports": { "viewReports": true, "createCustomReports": false }
+    }
+  }
+]  
