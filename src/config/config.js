@@ -26,8 +26,11 @@ const config = {
   EMAIL_PASS: process.env.EMAIL_PASS ,
   
   // CORS Configuration
-  CORS_ORIGIN: process.env.CORS_ORIGIN || ["http://localhost:3000", "http://localhost:4000", "http://localhost:5173","https://zakapofrontend.vercel.app","https://zakapobackend.vercel.app"],
   
+  CORS_ORIGIN: process.env.CORS_ORIGIN || ["http://localhost:3000", "http://localhost:4000", "http://localhost:5173","https://zakapofrontend.vercel.app"],
+
+  
+
   // Database Name
   DB_NAME: "Zakapo",
 
@@ -43,5 +46,7 @@ const config = {
   BIGCOMMERCE_CLIENT_ID: process.env.BIGCOMMERCE_CLIENT_ID,
   BIGCOMMERCE_CLIENT_SECRET: process.env.BIGCOMMERCE_CLIENT_SECRET,
 };
+
+console.log('CORS Origin:', config.CORS_ORIGIN)
 
 export default config;

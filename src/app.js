@@ -17,8 +17,10 @@ import comboRouter from "./routes/comboRouter.js";
 const app = express();
 app.use(
   cors({
-    origin: config.CORS_ORIGIN,
+    origin: ["https://zakapofrontend.vercel.app"],
     credentials: true,
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
 
